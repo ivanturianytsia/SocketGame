@@ -1,0 +1,10 @@
+body {
+    background-color: lightgray;
+}
+
+canvas {
+    height: 500px;
+    width: 1000px;
+    border: solid white 1px;
+    cursor: none;
+}
