@@ -6,6 +6,7 @@
 	"dependencies": {},
 	"devDependencies": {},
 	"scripts": {
+		"docker": "node index.js",
 		"test": "mocha"
 	},
 	"repository": {

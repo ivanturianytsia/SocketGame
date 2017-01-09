@@ -1,0 +1,15 @@
+version: '2'
+services:
+  socketgame:
+    build: .
+    container_name: socketgame
+    environment:
+      - APP_NAME='socketgame'
+      - DEBUG='app:*'
+      - NODE_ENV='production'
+      - PORT=3000
+    expose:
+      - 3000
+    ports:
+      - "80:3000"
+    restart: always
